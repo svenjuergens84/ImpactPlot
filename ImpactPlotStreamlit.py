@@ -15,6 +15,27 @@ import matplotlib.pyplot as plt
 # App title
 st.title("💸 Revenue Impact Calculator")
 
+
+st.markdown('''
+    **This dashboard will help you to figure why your mobile app revenue changes.**
+
+    Last Update: 2025-07-08
+
+    **How it works:**
+    
+    Type in your KPIs from two timeframes (e.g. last week vs. the week before) and see which had the biggest impact on the revenue change.
+    If you do not monetize with ads, leave the impressions at zero.
+    
+    Made by Sven Jürgens
+    
+    ✨ I help apps increase their ROAS in 90 days
+    
+    DM me and say hi 👇
+    
+    https://www.linkedin.com/in/svenjuergens/  
+    http://svenjuergens-consulting.com/
+    
+    ''')
 # Sidebar for inputs
 with st.sidebar:
     st.header("Input KPIs - Old Timeframe")
